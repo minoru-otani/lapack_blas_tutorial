@@ -5,6 +5,7 @@
 /*************************************************/
 #include <iostream>
 #include <complex>
+/* std名前空間に属することを除いてC言語の標準ライブラリ<stdio.h>ヘッダと同じである。*/
 #include <cstdio>
 
 using namespace std;
