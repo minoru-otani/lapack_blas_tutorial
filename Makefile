@@ -16,6 +16,8 @@ first: first.c complex_first.c complex_first_cpp.cc
 blas: blas1.c
 	$(CC) $(OPENBLAS_INC) blas1.c -o blas1 $(OPENBLAS_LIB)
 
+all: first blas
+
 clean:
 	-rm first
 	-rm complex_first
