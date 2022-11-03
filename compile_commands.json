@@ -1,0 +1,54 @@
+[
+ {
+  "directory": "/Users/otani/Program/lapack_blas_tutorial",
+  "arguments": [
+   "gcc",
+   "-I/usr/local/include",
+   "-I/usr/local/opt/openblas/include",
+   "blas1.c",
+   "-o",
+   "blas1",
+   "-L/usr/local/lib",
+   "-lm",
+   "-L/usr/local/opt/openblas/lib",
+   "-lopenblas"
+  ],
+  "file": "blas1.c"
+ },
+ {
+  "directory": "/Users/otani/Program/lapack_blas_tutorial",
+  "arguments": [
+   "gcc",
+   "first.c",
+   "-o",
+   "first",
+   "-L/usr/local/lib",
+   "-lm"
+  ],
+  "file": "first.c"
+ },
+ {
+  "directory": "/Users/otani/Program/lapack_blas_tutorial",
+  "arguments": [
+   "gcc",
+   "complex_first.c",
+   "-o",
+   "complex_first",
+   "-L/usr/local/lib",
+   "-lm"
+  ],
+  "file": "complex_first.c"
+ },
+ {
+  "directory": "/Users/otani/Program/lapack_blas_tutorial",
+  "arguments": [
+   "g++",
+   "complex_first_cpp.cc",
+   "-o",
+   "complex_first_cpp",
+   "-L/usr/local/lib",
+   "-lm"
+  ],
+  "file": "complex_first_cpp.cc"
+ }
+]
